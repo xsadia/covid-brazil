@@ -1,0 +1,95 @@
+#form-page {
+    width: 100vw;
+    height: 100vh;
+
+    color: #e8e8e9;
+    background-color: #202124;
+}
+
+#form-page header.form-header a {
+    text-decoration: none!important;
+    color: #e8e8e9;
+    float: right;
+    margin-right: 15px;
+    margin-top: 5px;
+    font-size: 20px;
+    transition: color 0.2s;
+}
+
+#form-page header.form-header a:hover {
+    color: rgb(4, 211, 97);
+}
+
+#form-page header.form-header h1 {
+    float: left;
+    margin-left: 15px;
+    margin-top: 5px;
+    color: #e8e8e9;
+}
+
+#form-page header.form-header span {
+    color: rgb(4, 211, 97);
+}
+
+main.form-wrapper {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    text-align: center;
+    
+    position: absolute;
+    top: 25%;
+    right: 25%;
+    
+    padding: 10px;
+    margin: auto;
+    
+    width: 50%;
+    height: 150px;
+
+    font-size: 25px;
+    
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    transition: border 0.2s;
+}
+
+main.form-wrapper:hover {
+    border: 2px solid rgb(4, 211, 97);
+} 
+
+main.form-wrapper select {
+    padding: 5px 20px 5px;
+    display: flex;
+    justify-content: start;
+    width: 140px;
+    text-align: center;
+    font-size: 15px;
+    background-color: rgba(4, 211, 97, 0.9);
+    color: #000;
+    font-weight: 700;
+    
+ }
+
+ main.form-wrapper select:hover {
+     cursor: pointer;
+ }
+
+main.content-wrapper {
+    position: absolute;
+    top: 25%;
+    right: 25%;
+    margin: auto;
+    width: 50%;
+    height: 350px;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+    transition: border 0.2s;
+}
+
+main.content-wrapper:hover {
+    border: 2px solid rgb(4, 211, 97);
+} 
+

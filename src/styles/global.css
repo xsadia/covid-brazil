@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+
+*:focus {
+    outline: none;
+}
+
+body {
+    color: #e8e8e9;
+    background-color: #202124;
+    font-family: 'Ubuntu', sans-serif;
+}
