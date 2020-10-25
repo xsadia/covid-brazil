@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import '../styles/pages/Form-page.css'
+import '../styles/pages/Form-page.css';
+import { Link } from 'react-router-dom';
 
 function FormPage(){
     return (

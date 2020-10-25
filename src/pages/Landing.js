@@ -15,7 +15,9 @@ function Landing(){
                 <main>
                     <h1>COVID-19 <span>Brazil</span> API</h1>
                     <p>Confira dados sobre o novo <span>coronavírus</span>.</p>
-
+                    <Link to='/data' className='enter-app' >
+                        Confira os Dados
+                    </Link>
                 </main>
                 <img src={coroninha} />
             </div>

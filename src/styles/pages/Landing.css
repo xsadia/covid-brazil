@@ -4,7 +4,6 @@
 
     color: #e8e8e9;
     background-color: #202124;
-    z-index: 1;
 }
 
 #landing-page.content-wrapper{
@@ -66,6 +65,29 @@
     margin-top: 40px;
     font-size: 34px;
     line-height: 34px;
+}
+
+.content-wrapper .enter-app {
+    position: absolute;
+    top: 300px;
+
+    text-decoration: none;
+    color: #e8e8e9;
+    text-align: center;
+    font-size: 20px;
+
+    width: 250px;
+    
+    border: 2px solid #000;
+    padding: 15px 10px 15px;
+    border-radius: 25px;
+    background-color: rgb(4, 211, 97);
+    
+    transition: background-color 0.2s;
+}
+
+.content-wrapper .enter-app:hover{
+    background-color: #059947;
 }
 
 .content-wrapper img {
