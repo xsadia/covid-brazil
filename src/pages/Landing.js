@@ -9,7 +9,7 @@ function Landing(){
             <div className='content-wrapper' >
                 <header className='landing-header' >
                     <a href='https://covid19-brazil-api.now.sh/'>Powered by COVID-19 Brazil API</a>
-                    <h1>Covid-<span>Brazil</span></h1>
+                    <h1>COVID-<span>Brazil</span></h1>
                 </header>
 
                 <main>
@@ -19,7 +19,7 @@ function Landing(){
                         Confira os Dados
                     </Link>
                 </main>
-                <img src={coroninha} />
+                <img src={coroninha} alt='coroninha' />
             </div>
             
 
